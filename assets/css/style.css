@@ -69,10 +69,15 @@ footer {
 
 .content-container {
   text-align: center;
-  background-color: #ffffff;
+
   width: 960px;
-  padding-bottom: 25px;
+
   margin: auto;
+}
+
+.secondary-container {
+  background-color: #ffffff;
+  padding-bottom: 25px;
 }
 
 .main-content-header {
@@ -224,4 +229,81 @@ a:active {
 /* Sticky footer section */
 .meta-content-holder {
   flex: 1 0 auto;
+}
+
+/* Media Queries for responsivness here */
+
+/* Medium Screen */
+@media screen and (max-width: 768px) {
+  .nav-container {
+    width: 100%;
+  }
+  .content-container {
+    width: 100%;
+  }
+  .secondary-container {
+    margin-right: 40px;
+    margin-left: 20px;
+  }
+  .nav-heading {
+    margin-left: 20px;
+  }
+  .nav-list-shell {
+    padding-right: 40px;
+  }
+}
+
+/* Large Screen */
+@media screen and (max-width: 980px) {
+  .secondary-container {
+    width: 700px;
+  }
+  .nav-list-shell {
+    margin-right: 20px;
+  }
+}
+
+/* Small Screen */
+@media screen and (max-width: 640px) {
+  /* Nav heading changes */
+  .nav-heading {
+    width: 100%;
+    float: none;
+    margin-left: 0px !important;
+    padding-left: 0px;
+  }
+  .nav-list-shell {
+    float: none;
+    background-color: white;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-right: 0px !important;
+  }
+  .nav-container {
+    height: 140px;
+
+    border-bottom: 1px solid #cccccc;
+  }
+
+  /* Index.html specific changes */
+  .secondary-container {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20%;
+  }
+  .content-container {
+    width: 100%;
+  }
+
+  .main-content-header {
+    margin-top: 10px;
+  }
+  img.main-item {
+    float: none;
+    width: 60%;
+  }
 }
