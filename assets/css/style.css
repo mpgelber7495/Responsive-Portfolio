@@ -248,6 +248,8 @@ a:active {
   .nav-heading {
     margin-left: 30px;
   }
+
+  /* Specific to portfolio page */
   .project-holder {
     margin-right: 40px;
   }
@@ -272,7 +274,12 @@ a:active {
     margin-left: 20px;
   }
   .nav-list-shell {
-    padding-right: 40px;
+    padding-right: 10px;
+  }
+
+  /* Specific to portfolio page */
+  .project-holder {
+    margin-left: 50px;
   }
 }
 
@@ -294,6 +301,7 @@ a:active {
     align-items: center;
     height: 50px;
     margin-right: 0px !important;
+    padding-right: 40px;
   }
   .nav-container {
     height: 140px;
@@ -317,5 +325,26 @@ a:active {
   img.main-item {
     float: none;
     width: 60%;
+  }
+
+  /* Portfolio.html specific changes */
+  .project-holder {
+    float: none;
+    width: 75%;
+    height: 25%;
+  }
+  .project-image {
+    width: 75%;
+    margin-bottom: 5%;
+  }
+
+  .project-name {
+    top: 60%;
+    left: 50%;
+    width: 65%;
+    height: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 15px;
   }
 }
