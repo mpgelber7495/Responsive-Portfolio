@@ -43,6 +43,9 @@ footer {
   margin: auto;
 }
 
+.secondary-container {
+  margin-bottom: 20%;
+}
 .nav-list-shell {
   float: right;
   margin-top: 36px;
@@ -233,6 +236,26 @@ a:active {
 
 /* Media Queries for responsivness here */
 
+/* Large Screen */
+@media screen and (max-width: 980px) {
+  .secondary-container {
+    width: 700px;
+    margin-left: 30px;
+  }
+  .nav-list-shell {
+    margin-right: 40px;
+  }
+  .nav-heading {
+    margin-left: 30px;
+  }
+  .project-holder {
+    margin-right: 40px;
+  }
+  .project-name {
+    left: 59%;
+  }
+}
+
 /* Medium Screen */
 @media screen and (max-width: 768px) {
   .nav-container {
@@ -250,16 +273,6 @@ a:active {
   }
   .nav-list-shell {
     padding-right: 40px;
-  }
-}
-
-/* Large Screen */
-@media screen and (max-width: 980px) {
-  .secondary-container {
-    width: 700px;
-  }
-  .nav-list-shell {
-    margin-right: 20px;
   }
 }
 
@@ -293,7 +306,6 @@ a:active {
     width: 96%;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 20%;
   }
   .content-container {
     width: 100%;
