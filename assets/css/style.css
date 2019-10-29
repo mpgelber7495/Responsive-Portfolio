@@ -21,6 +21,9 @@ footer {
   padding: 13px 0px 2px 0px;
   border-top: 8px solid #4aaaa5;
   flex-shrink: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 /* NAV SECTION STYLING */
 
